@@ -6,7 +6,7 @@
 ## 日本語
 
 ### 概要
-push_swap は 42 の課題で、スタック操作（`a`, `b`）と限られたコマンドを用いて整数列を最小操作で昇順にソートするプログラムです。`push_swap` は操作列を出力し、`checker` はその操作列で正しくソートされるか検証します。
+push_swap は スタック操作（`a`, `b`）と限られたコマンドを用いて整数列を最小操作で昇順にソートするプログラムです。`push_swap` は操作列を出力し、`checker` はその操作列で正しくソートされるか検証します。
 
 ### 構成
 - `push_swap`: 入力を解析し、操作列を標準出力に出すメインプログラム
@@ -28,7 +28,7 @@ make
 ## English
 
 ### Overview
-`push_swap` is a 42 project: using two stacks (`a`, `b`) and a limited set of operations, it computes a (near-)optimal sequence of operations to sort a list of integers in ascending order. `push_swap` prints the operations; `checker` reads them and validates the result.
+`push_swap` is using two stacks (`a`, `b`) and a limited set of operations, it computes a (near-)optimal sequence of operations to sort a list of integers in ascending order. `push_swap` prints the operations; `checker` reads them and validates the result.
 
 ### Structure
 - `push_swap`: main program that reads input and outputs the operation sequence
@@ -50,7 +50,7 @@ Examples:
 ## 한글
 
 ### 개요
-`push_swap`는 42 과제이며, 두 개의 스택(`a`, `b`)과 제한된 명령어로 정수 목록을 최소 또는 최소에 가까운 연산으로 오름차순 정렬하기 위한 명령어 시퀀스를 출력하는 프로그램입니다. `checker`는 해당 명령어 시퀀스로 정렬이 성공하는지 확인합니다.
+`push_swap`는 두 개의 스택(`a`, `b`)과 제한된 명령어로 정수 목록을 최소 또는 최소에 가까운 연산으로 오름차순 정렬하기 위한 명령어 시퀀스를 출력하는 프로그램입니다. `checker`는 해당 명령어 시퀀스로 정렬이 성공하는지 확인합니다.
 
 ### 구성
 - `push_swap`: 입력을 파싱하고 정렬을 위한 명령어 시퀀스를 출력하는 메인 프로그램
